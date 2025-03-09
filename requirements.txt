@@ -1,0 +1,4 @@
+open_clip_torch
+timm
+huggingface_hub>=0.29.0
+transformers

@@ -31,7 +31,13 @@ class MultilingualClipEdited(nn.Module, PyTorchModelHubMixin):
         return self.clip_head(embs)
 
 
-class AraClip(nn.Module, PyTorchModelHubMixin):
+class AraClip(
+    nn.Module,
+    PyTorchModelHubMixin,
+    library_name="araclip",
+    repo_url="https://github.com/Arabic-Clip/Araclip_Enhanced",
+    tags=["clip"],
+):
     def __init__(
         self,
         transformer_cfg,

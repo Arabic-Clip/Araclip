@@ -6,7 +6,7 @@ pip install git+https://github.com/Arabic-Clip/Araclip_Enhanced.git
 ```
 ```python
 from araclip import AraClip
-model = AraClip.from_pretrained("repo_name_or_id")
+model = AraClip.from_pretrained("Arabic-Clip/araclip")
 ```
 
 ```python

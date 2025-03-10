@@ -1,8 +1,8 @@
-# Araclip_Enhanced
+# Araclip
 
 ## How to use 
 ```
-pip install git+https://github.com/Arabic-Clip/Araclip_Enhanced.git
+pip install git+https://github.com/Arabic-Clip/Araclip.git
 ```
 ```python
 from araclip import AraClip

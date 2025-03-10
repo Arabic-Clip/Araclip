@@ -35,7 +35,7 @@ class AraClip(
     nn.Module,
     PyTorchModelHubMixin,
     library_name="araclip",
-    repo_url="https://github.com/Arabic-Clip/Araclip_Enhanced",
+    repo_url="https://github.com/Arabic-Clip/Araclip",
     tags=["clip"],
 ):
     def __init__(

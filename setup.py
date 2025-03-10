@@ -34,6 +34,5 @@ setup(
     packages=find_packages("src"),
     include_package_data=True,
     classifiers=["Topic :: Utilities", "Programming Language :: Python :: 3.10"],
-    requires=["setuptools", "wheel", "typing", "pillow", "numpy", "torch"],
     install_requires=read_requirements("requirements.txt"),
 )
